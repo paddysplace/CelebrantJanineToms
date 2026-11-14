@@ -1,25 +1,230 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My New Pen</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
- <body>
-  <header class="hero">
-    <h1>Grow faster with Acme</h1>
-    <p class="subhead">Launch pages in minutes. No code required.</p>
-    <a class="btn btn-primary" href="#pricing">Start Free Trial</a>
-  </header>
-  <main>
-    <section class="features"></section>
-    <section class="testimonials"></section>
-    <section class="pricing"></section>
-    <section class="faq"></section>
-  </main>
-  <footer class="site-footer"></footer>
-</body>
+
+  <body>
+    <div class="page-wrap">
+      <nav class="site-header">
+        <a
+          href="https://bsky.app/profile/chriscoyier.net"
+          class="social-link social-link-bluesky"
+        >
+          <svg
+            aria-label="Chris Coyier on Bluesky"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M23.931,5.298c-3.21,2.418-6.663,7.32-7.931,9.951-1.267-2.631-4.721-7.533-7.931-9.951-2.316-1.744-6.069-3.094-6.069,1.201,0,.857,.49,7.206,.778,8.237,.999,3.583,4.641,4.497,7.881,3.944-5.663,.967-7.103,4.169-3.992,7.372,5.908,6.083,8.492-1.526,9.154-3.476,.123-.36,.179-.527,.179-.379,0-.148,.057,.019,.179,.379,.662,1.949,3.245,9.558,9.154,3.476,3.111-3.203,1.671-6.405-3.992-7.372,3.24,.553,6.882-.361,7.881-3.944,.288-1.031,.778-7.38,.778-8.237,0-4.295-3.753-2.945-6.069-1.201Z"
+            ></path>
+          </svg>
+        </a>
+        <a
+          href="https://front-end.social/@chriscoyier"
+          class="social-link social-link-mastodon"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="Chris Coyier on Mastodon"
+            role="img"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M30.116,7.642c-.438-3.223-3.278-5.764-6.645-6.256-.568-.083-2.72-.386-7.705-.386h-.037c-4.987,0-6.056,.303-6.624,.386-3.273,.479-6.262,2.761-6.987,6.023-.349,1.606-.386,3.387-.321,5.02,.092,2.343,.11,4.681,.325,7.014,.149,1.55,.408,3.087,.776,4.601,.689,2.795,3.48,5.121,6.214,6.07,2.927,.99,6.075,1.154,9.091,.474,.332-.076,.66-.165,.984-.266,.732-.23,1.591-.488,2.222-.941,.009-.006,.016-.015,.021-.024,.005-.009,.008-.02,.008-.031v-2.261c0-.01-.003-.02-.007-.029-.004-.009-.011-.017-.019-.023-.008-.006-.017-.01-.027-.013-.01-.002-.02-.002-.03,0-1.932,.457-3.913,.685-5.899,.682-3.419,0-4.339-1.605-4.602-2.273-.212-.577-.346-1.18-.4-1.792,0-.01,.001-.021,.006-.03,.004-.009,.011-.018,.019-.024,.008-.006,.018-.011,.028-.013,.01-.002,.021-.002,.031,0,1.9,.453,3.848,.682,5.803,.682,.47,0,.939,0,1.409-.012,1.966-.055,4.038-.154,5.972-.528,.048-.01,.097-.018,.138-.03,3.051-.579,5.954-2.398,6.249-7.004,.011-.181,.039-1.899,.039-2.088,.001-.64,.208-4.536-.03-6.931Zm-4.696,11.493h-3.208v-7.772c0-1.636-.689-2.471-2.091-2.471-1.541,0-2.313,.987-2.313,2.937v4.254h-3.189v-4.254c0-1.95-.773-2.937-2.315-2.937-1.394,0-2.09,.834-2.091,2.471v7.772h-3.205V11.127c0-1.636,.422-2.936,1.267-3.9,.871-.961,2.014-1.455,3.433-1.455,1.642,0,2.883,.624,3.71,1.872l.798,1.325,.8-1.325c.827-1.248,2.068-1.872,3.707-1.872,1.417,0,2.56,.494,3.434,1.455,.845,.963,1.267,2.263,1.267,3.9l-.003,8.008Z"
+            ></path>
+          </svg>
+        </a>
+      </nav>
+  
+      <main class="wrapper">
+        <div class="name">
+          <img
+            src="https://images.unsplash.com/photo-1590086783191-a0694c7d1e6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0NjA5Mzd8&ixlib=rb-4.1.0&q=80&w=400"
+            alt=""
+          />
+          Chris Coyier
+        </div>
+  
+        <div class="wrapper content intro">
+          <h1>Freelance Designer</h1>
+          <p>
+            I help
+            <a href="#todo">agencies</a>
+            & brands like Google, Volvo and others to turn their ideas into
+            designs. Great designs and a healthy freelance relationship. Pinky
+            swear.
+          </p>
+        </div>
+  
+        <div class="actions">
+          <a class="button button-filled" href="mailto:chriscoyier@gmail.com">
+            chriscoyier@gmail.com
+          </a>
+  
+          <a href="#design-work" class="button button-invis">
+            <svg viewBox="0 0 320 512" width="100">
+              <path
+                d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+              />
+            </svg>
+            See Design Work
+          </a>
+        </div>
+  
+        <div class="carousel carousel--scroll-buttons">
+          <img
+            src="https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzNzI1MDZ8&ixlib=rb-4.1.0&q=80&w=800"
+            width="800"
+            height="533"
+            alt=""
+            loading="lazy"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1518107616985-bd48230d3b20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzNzI4MDB8&ixlib=rb-4.1.0&q=80&w=800"
+            alt=""
+            loading="lazy"
+            width="800"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MjMzNzN8&ixlib=rb-4.1.0&q=80&w=800"
+            alt=""
+            loading="lazy"
+            width="800"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1623932078819-b01c5c945247?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MjM0NDV8&ixlib=rb-4.1.0&q=80&w=800"
+            alt=""
+            loading="lazy"
+            width="800"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1524060545405-b99eebf362ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MjM0NDV8&ixlib=rb-4.1.0&q=80&w=800"
+            alt=""
+            loading="lazy"
+            width="800"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1608908271749-40decee4f0e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MjM0Njh8&ixlib=rb-4.1.0&q=80&w=800"
+            alt=""
+            loading="lazy"
+            width="800"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1603969072881-b0fc7f3d77d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MjM0ODV8&ixlib=rb-4.1.0&q=80&w=800"
+            alt=""
+            loading="lazy"
+            width="800"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1613324996029-f6190a17838f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2MjM0ODV8&ixlib=rb-4.1.0&q=80&w=800"
+            alt=""
+            loading="lazy"
+            width="800"
+          />
+        </div>
+  
+        <section class="design-work" id="design-work">
+  
+          <h2>Recent Work</h2>
+          
+          <article>
+            <div class="img">
+              <img src="./images/browser.png" alt="Browser" />
+            </div>
+            <div class="txt">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                quaerat animi quae cum commodi esse delectus at facere modi quas
+                ex voluptas omnis. Aspernatur ipsam molestiae magnam nobis natus
+                saepe.
+              </p>
+            </div>
+          </article>
+  
+          <article>
+            <div class="txt">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                quaerat animi quae cum commodi esse delectus at facere modi quas
+                ex voluptas omnis. Aspernatur ipsam molestiae magnam nobis natus
+                saepe.
+              </p>
+            </div>
+            <div class="img">
+              <img src="./images/browser.png" alt="Browser" />
+            </div>
+          </article>
+  
+          <article>
+            <div class="img">
+              <img src="./images/browser.png" alt="Browser" />
+            </div>
+            <div class="txt">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                quaerat animi quae cum commodi esse delectus at facere modi quas
+                ex voluptas omnis. Aspernatur ipsam molestiae magnam nobis natus
+                saepe.
+              </p>
+            </div>
+          </article>
+        </section>
+      </main>
+  
+      <footer class="site-footer wrapper">
+      <div class="content footer-text">
+        <h4>Let's work together</h4>
+        <p>
+          Lorem ipsum
+          <a href="">dolor</a>
+          sit amet consectetur adipisicing elit. Animi dolorem nemo vitae quis
+          iste facere accusamus atque reprehenderit.
+        </p>
+
+        <p><strong>Made by CodePen in Bend, Oregon.</strong></p>
+      </div>
+
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Posts</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">404</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Admin</h4>
+        <ul>
+          <li><a href="#">Style Guide</a></li>
+          <li><a href="#">Components</a></li>
+          <li><a href="#">Instructions</a></li>
+          <li><a href="#">License</a></li>
+          <li><a href="#">Changelog</a></li>
+        </ul>
+      </div>
+    </footer>
+    </div>
+
+    <div class="final">
+      <div class="text-fit">
+        <span><span>kåpow</span></span>
+        <span aria-hidden="true">kåpow</span>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
