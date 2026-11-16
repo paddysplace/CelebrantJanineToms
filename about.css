@@ -1,0 +1,345 @@
+:root {
+    --primary: #945600;
+    --secondary: #E5F4E3;
+}
+
+#logo {
+    width: 100%;
+    padding: clamp(1rem, 2vw, rem) 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo .cs-logo-wrapper {
+    max-width: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  #logo .cs-logo-container {
+    width: 100%;
+    max-width: 75rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+   .cs-logo-wrapper {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    /* 40px - 52px */
+    margin-bottom: clamp(2.5rem, 5vw, 3.25rem);
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #sbs-1470 {
+    padding: var(--sectionPadding);
+  }
+  #sbs-1470 .cs-container {
+    width: 100%;
+    /* changes to 1280px at desktop */
+    max-width: 36.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+  }
+  #sbs-1470 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: left;
+    width: 100%;
+    /* changes to 433px at desktop */
+    max-width: 33.875rem;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: flex-start;
+  }
+  #sbs-1470 .cs-title {
+    max-width: 20ch;
+  }
+  #sbs-1470 .cs-text {
+    margin-bottom: 1rem;
+  }
+  #sbs-1470 .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #sbs-1470 .cs-ul {
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 2.5rem;
+    row-gap: 1rem;
+  }
+  #sbs-1470 .cs-li {
+    font-size: var(--bodyFontSize);
+    font-weight: 700;
+    line-height: 1.5em;
+    list-style: none;
+    width: 100%;
+    color: var(--bodyTextColor);
+    display: flex;
+    justify-content: flex-start;
+    /* push icon top the top so if the list item goes to two lines the icon stays at the top */
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  #sbs-1470 .cs-icon {
+    width: 1.5rem;
+    height: auto;
+    /* adds extra space between the icon and top of parent so it's more centered */
+    margin-top: 1px;
+    display: block;
+  }
+  #sbs-1470 .button-box {
+    width: 100%;
+    max-width: 39.375rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  #sbs-1470 .cs-link {
+    text-decoration: none;
+    padding-right: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+  }
+  #sbs-1470 .cs-link:hover .cs-wrapper {
+    transform: scale(1.2);
+  }
+  #sbs-1470 .cs-wrapper {
+    width: 3.25rem;
+    height: 3.25rem;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #sbs-1470 .cs-img {
+    width: 3.25rem;
+    height: auto;
+    /* prevents border from affecting height and width */
+    box-sizing: border-box;
+    border: 2px solid #bababa;
+    border-radius: 50%;
+  }
+  #sbs-1470 .cs-icon {
+    width: 1.5rem;
+    height: auto;
+    display: block;
+  }
+  #sbs-1470 .cs-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  #sbs-1470 .cs-header {
+    font-size: 1.5625rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #sbs-1470 .cs-phone {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 0;
+    color: var(--headerColor);
+    display: block;
+  }
+  #sbs-1470 .cs-job {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: 0;
+    color: var(--secondary);
+    display: block;
+  }
+  #sbs-1470 .cs-link-content {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0;
+    color: var(--bodyTextColor);
+    display: block;
+  }
+  #sbs-1470 .cs-button-solid {
+    font-size: 1rem;
+    font-weight: 700;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    margin: 0;
+    padding: 0 3rem;
+    background-color: var(--primary);
+    overflow: hidden;
+    color: #fff;
+    border-radius: 1.875rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s;
+  }
+  #sbs-1470 .cs-button-solid:before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: var(--secondary);
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 0.3s;
+  }
+  #sbs-1470 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbs-1470 .cs-image-group {
+    /* scales the whole group based on the view width size and stop when that vales equals .745em, resets at desktop */
+    font-size: min(2.15vw, .8em);
+    width: 41.25em;
+    height: 47.3125em;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  #sbs-1470 .cs-picture {
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+  }
+  #sbs-1470 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #sbs-1470 .cs-picture1 {
+    width: 25.8125em;
+    height: 24.25em;
+    border: 0.5em solid var(--secondary);
+    border-radius: 12.125em;
+    top: 0;
+    left: -0.5em;
+    z-index: -1;
+  }
+  #sbs-1470 .cs-picture2 {
+    width: 18.125em;
+    height: 18.125em;
+    border: 0.5em solid #ffd3c6;
+    border-radius: 50%;
+    right: -0.5em;
+    bottom: 13.25em;
+    z-index: 10;
+  }
+  #sbs-1470 .cs-picture3 {
+    width: 23.875em;
+    height: 21.8125em;
+    border: 0.5em solid var(--primary);
+    border-radius: 8.5em;
+    bottom: 0;
+    left: -0.5em;
+    z-index: -1;
+  }
+  #sbs-1470 .cs-floater1 {
+    width: 10.1875em;
+    height: auto;
+    position: absolute;
+    top: 8.125em;
+    right: 4.375em;
+    transform: rotate(-38deg);
+  }
+  #sbs-1470 .cs-floater2 {
+    width: 5.0625em;
+    height: auto;
+    position: absolute;
+    top: 22em;
+    left: 0;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-1470 .cs-link:nth-of-type(1) {
+    border-right: 1px solid #e8e8e8;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbs-1470 .cs-container {
+    max-width: 80rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #sbs-1470 .cs-image-group {
+    font-size: min(.9vw, 1em);
+    flex: none;
+  }
+}
+/* Large Desktop - 1200px */
+@media only screen and (min-width: 75rem) {
+  #sbs-1470 .cs-image-group {
+    font-size: min(1.13vw, 1em);
+    flex: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #sbs-1470 .cs-title,
+  body.dark-mode #sbs-1470 .cs-text,
+  body.dark-mode #sbs-1470 .cs-li,
+  body.dark-mode #sbs-1470 .cs-link-content,
+  body.dark-mode #sbs-1470 .cs-header,
+  body.dark-mode #sbs-1470 .cs-phone {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #sbs-1470 .cs-text,
+  body.dark-mode #sbs-1470 .cs-li,
+  body.dark-mode #sbs-1470 .cs-header {
+    opacity: 0.8;
+  }
+  body.dark-mode #sbs-1470 .cs-wrapper,
+  body.dark-mode #sbs-1470 .cs-link {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  body.dark-mode #sbs-1470 .cs-icon {
+    filter: grayscale(1) brightness(1000%);
+  }
+}
