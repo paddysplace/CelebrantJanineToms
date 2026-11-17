@@ -49,6 +49,7 @@
 @media only screen and (min-width: 0rem) {
   #sbs-1470 {
     padding: var(--sectionPadding);
+    padding-bottom: 2rem;
   }
   #sbs-1470 .cs-container {
     width: 100%;

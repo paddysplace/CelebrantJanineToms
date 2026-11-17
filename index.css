@@ -238,6 +238,7 @@ img {
 @media only screen and (min-width: 0rem) {
   #reviews-1672 {
     padding: var(--sectionPadding);
+    padding-bottom: 2rem;
   }
   #reviews-1672 .cs-container {
     width: 100%;
