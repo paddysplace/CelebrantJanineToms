@@ -1,9 +1,7 @@
 /*-- -------------------------- -->
 <---       Side By Side         -->
 <--- -------------------------- -*/
-img {
-   padding-top: 2rem;
-}
+
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #sbs-598 {
